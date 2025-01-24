@@ -5,9 +5,8 @@ module.exports = {
     await queryInterface.createTable('stores', {
       id: {
         allowNull: false,
-        autoIncrement: true,
-        primaryKey: true,
-        type: Sequelize.uuid
+         primaryKey: true,
+        type: Sequelize.UUID
       },
       storeName: {
         type: Sequelize.STRING
