@@ -1,4 +1,4 @@
-const {createProduct,getAll,getOne,updateUser,} = require('../controller/productController')
+const {createProduct,getAll,getOne,updateUser, deleteUser} = require('../controller/productController')
 
 const productRouter = require('express').Router();
 
